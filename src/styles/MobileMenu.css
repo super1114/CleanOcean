@@ -1,0 +1,54 @@
+.mobile_menu_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-y: hidden;
+
+	width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
+	background-color: #68b3da;
+	z-index: 99;
+}
+
+.mobile_menu_overlay .close_btn {
+	position: absolute;
+	right: 40px;
+	top: 30px;
+	font-size: 30px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.mobile_menu_overlay .mobile_menu {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: -20px;
+	margin-top: 150px;
+}
+
+.mobile_menu_overlay .mobile_menu ul {
+	list-style: none;
+}
+
+.mobile_menu_overlay .mobile_menu ul li {
+	font-size: 18px;
+	margin: 15px 0;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.mobile_menu_overlay .mobile_menu ul li button {
+	height: 60px;
+	width: 160px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+
+	font-weight: bold;
+	font-size: 18px;
+}

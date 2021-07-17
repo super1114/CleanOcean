@@ -1,0 +1,41 @@
+.get_in_touch {
+	margin-top: 10px;
+}
+
+.get_in_touch .heading h2 {
+	font-weight: 600;
+	font-size: 50px;
+
+	position: relative;
+	color: #000000;
+}
+
+.get_in_touch .heading .heading_style {
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	background: #aed3e5;
+	top: 28px;
+	right: 455px;
+	z-index: -1;
+}
+
+.get_in_touch p {
+	color: #000000;
+	font-size: 18px;
+	padding: 20px 150px;
+}
+.get_in_touch span {
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+	.get_in_touch p {
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+
+	.get_in_touch .heading .heading_style {
+		display: none;
+	}
+}

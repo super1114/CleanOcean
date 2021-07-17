@@ -1,0 +1,77 @@
+.roadmap {
+	margin: 150px 0;
+}
+
+.roadmap .heading h2 {
+	font-weight: 600;
+	font-size: 50px;
+
+	position: relative;
+	color: #000000;
+}
+
+.roadmap .heading .heading_style {
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	background: #aed3e5;
+	top: 32px;
+	right: 455px;
+	z-index: -1;
+}
+
+.roadmap p {
+	color: #000000;
+	font-size: 18px;
+	padding: 20px 150px;
+}
+
+.roadmap .single_entity {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+}
+
+.roadmap .single_entity span {
+	position: absolute;
+
+	color: #fff;
+	font-size: 30px;
+	top: 40px;
+}
+
+.roadmap .single_entity img {
+	width: 89px;
+	height: 89px;
+}
+
+.roadmap .single_entity button {
+	margin-top: 20px;
+	border: none;
+	min-width: 200px;
+	
+	outline: none;
+	background: #68b3da;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 50px;
+	font-size: 13px;
+}
+
+.below_locations {
+	padding: 0px 190px;
+}
+
+@media screen and (max-width: 992px) {
+	.roadmap p {
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+
+	.roadmap .heading .heading_style {
+		display: none;
+	}
+}

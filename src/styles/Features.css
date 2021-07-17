@@ -1,0 +1,48 @@
+.features {
+	margin: 150px 0;
+}
+
+.features .heading h2 {
+	font-weight: 600;
+	font-size: 50px;
+
+	position: relative;
+	color: #000000;
+}
+
+.features .heading .heading_style {
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	background: #aed3e5;
+	top: 32px;
+	right: 455px;
+	z-index: -1;
+}
+
+.features p {
+	color: #000000;
+	font-size: 18px;
+	padding: 20px 150px;
+}
+
+.features button {
+	background: #bddbff;
+	height: 50px;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	margin: 10px 20px;
+	padding: 0 20px;
+}
+
+.features button img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+

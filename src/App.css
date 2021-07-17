@@ -1,0 +1,30 @@
+.App {
+	max-width: 100vw;
+	height: 100%;
+}
+@font-face {
+	font-family: myFont;
+	src: url(assets/font/arlrdbd.ttf);
+}
+@font-face {
+	font-family: myFont1;
+	font-weight: normal;
+	src: url(assets/font/AvenirLTStd-Black.otf);
+}
+
+@font-face {
+	font-family: myFont2;
+	font-weight: bold;
+	src: url(assets/font/Heiti_SC_Light.ttf);
+}
+
+@import './styles/Header.css';
+@import './styles/LandingPage.css';
+@import './styles/HighlightedPoints.css';
+@import './styles/Features.css';
+@import './styles/Roadmap.css';
+@import './styles/GetInTouch.css';
+@import './styles/MobileMenu.css';
+@import './styles/Distribution.css';
+@import './styles/Responsive.css';
+

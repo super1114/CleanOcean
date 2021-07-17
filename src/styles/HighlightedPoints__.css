@@ -1,0 +1,130 @@
+.highlight_points img {
+	width: 500px;
+	height: 500px;
+}
+.highlight_points .image_icons {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 50px;
+	top: 50px;
+}
+
+.highlight_points_content .number_container {
+	background: #035d8f;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.content h6 {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+
+	color: #000000;
+}
+
+.content p {
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 300;
+
+	color: #707070;
+}
+
+.content h5 {
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 23px;
+	color: #035d8f;
+	cursor: pointer;
+}
+
+.content .highlighted_btn_text {
+	width: 80%;
+	background-color: rgba(112, 112, 112, 0.3);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	padding: 8px 30px;
+}
+
+.content .highlighted_btn_text button {
+	color: #fff;
+	width: 80px;
+	background-color: #68b3da;
+	outline: none;
+	border-radius: 50px;
+	border: none;
+	padding: 5px 15px;
+}
+
+.content .highlighted_btn_text p {
+	color: #000;
+	margin-left: 20px;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.custom_margin {
+	margin-top: 70px;
+}
+
+.content .padlock_img {
+	width: 80px;
+	height: 80px;
+}
+
+.content button {
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	width: 100%;
+	height: 35px;
+	background: #68b3da;
+}
+
+@media screen and (max-width: 992px) {
+	.highlight_points img {
+		width: 350px;
+		height: 350px;
+	}
+	.highlight_points .image_icons {
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		left: 50px;
+		top: 50px;
+	}
+
+	.highlight_points_content .number_container {
+		width: 50px;
+		height: 50px;
+		margin-left: 10px;
+	}
+
+	.highlight_points_content .number_container h1 {
+		font-size: 18px;
+	}
+
+	.content button {
+		border: none;
+		border-radius: 50px;
+		color: #fff;
+		width: 100%;
+		height: 45px;
+		font-size: 12px;
+		background: #68b3da;
+	}
+
+	.content .padlock_img {
+		width: 90px;
+		height: 90px;
+	}
+}
